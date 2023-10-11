@@ -12,3 +12,11 @@ Para utilizar esse repertorio, é necessário criar um ambiente virtual e instal
 2. Se em windows: nome_da_venv\Scripts\activate.bat
 3. nome_da_venv/scripts/activate
 4. pip install DJango
+
+# Jira do projeto: 
+
+https://nossojogo.atlassian.net/jira/software/projects/PROJ/boards/8
+
+# Relato de pair programming 
+
+https://docs.google.com/document/d/16w1LVo044dzdBi4wykbR3jlEJW5XkNC2HyWPhA7UsNA/edit
