@@ -1,6 +1,7 @@
 # Projetos2
 
-esse projeto foi criado pelo grupo 08 de projetos Alecrim Dourado
+esse projeto foi criado pelo grupo 08 de projetos Alecrim Dourado para a finalidade de encontrar
+uma solucao ideal para a ONG Gotas de flor com amor.
 
 # Conheça o projeto 
 
