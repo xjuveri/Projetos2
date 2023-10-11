@@ -32,8 +32,8 @@ Orientadora: Tatalina Silva de Oliveira.
 **--Instruções de para instalar o projeto--**
 
 -Para utilizar esse repositório, é necessário criar um ambiente virtual e instalar DJango;<br>
-
 -Crie um ambiente virtual utilizando o comando:<br>
+
 python -m venv nome_da_venv<br>
 Obs: o segundo "venv" é o nome do seu ambiente.
 
