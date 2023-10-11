@@ -23,6 +23,10 @@ Orientadora: Tatalina Silva de Oliveira.
 **Links importantes:**
 [**Jira**](https://nossojogo.atlassian.net/jira/software/projects/PROJ/boards/8) // [**Drive**](https://docs.google.com/document/d/16w1LVo044dzdBi4wykbR3jlEJW5XkNC2HyWPhA7UsNA/edit) <br/>
 
+# Status Report 1
+
+(add coisas aqui)
+
 **Instruções de para instalar o projeto:**
 
 -Para utilizar esse repositório, é necessário criar um ambiente virtual e instalar DJango;<br>
@@ -34,17 +38,17 @@ Obs: o segundo "venv" é o nome do seu ambiente.
 Em Windows:<br>
 nome_da_venv\Scripts\activate<br>
 nome_da_venv/scripts/activate<br>
-pip install DJango<br>
+pip install Django<br>
 
 **--Relato do Pair Programming--**
 
-Nosso grupo teve a oportunidade de experimentar o pair programming de forma positiva. A troca constante de conhecimento e técnicas entre os pares enriqueceu nosso repertório coletivo e, também, individual. Essa abordagem colaborativa não apenas melhorou nossa eficiência, mas também promoveu benefícios significativos para nossa equipe, já que nos permitiu resolver problemas de forma mais rápida e eficaz. Um membro do par frequentemente detectava erros que o outro poderia ter perdido, resultando em código mais limpo e confiável, o que nos levou a encontrar soluções melhores para desafios complexos. <br/>
+A nossa equipe teve a chance de testar o pair programming de forma positiva. A troca contínua de conhecimento e habilidades entre os pares enriqueceu o nosso repertório coletivo e, também, individual. Essa abordagem cooperativa não só melhorou a nossa eficiência, mas também promoveu benefícios significativos para o nosso grupo, pois nos permitiu resolver problemas de forma produtiva. <br/>
 
 -->Júlia Veríssimo e Maria Luiza Calife:<br/>
-Com a ajuda do pair programming, distrações foram otimizadas e a produtividade da dupla aumentou, resultando em um código bem trabalhado. <br/>
+Por meio do pair programming, a dupla conseguiu detectar os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/>
 
 -->Mirna Lustosa e Mell Brayner:<br/>
-Através do pair programming, a dupla conseguiu diminuir a quantidade de bugs no código de maneira rápida e eficaz, resultando em um código limpo. <br/>
+Através do pair programming, a dupla aprimorou suas habilidades de comunicação e colaboração, resultando em um código aperfeiçoado. <br/>
 
 -->Lucca da Veiga e Kaique Alves:<br/>
-Com o uso da técnica do pair programming, o código foi concluído de forma eficiente e minuciosa. <br/>
+Com o uso do pair programming, a dupla  aprendeu novas técnicas e conceitos, resultando em um código limpo e bem trabalhado. <br/>
