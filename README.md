@@ -29,7 +29,7 @@ Orientadora: Tatalina Silva de Oliveira.
 
 # Mais informações:
 
-**Instruções de para instalar o projeto:**
+**--Instruções de para instalar o projeto--**
 
 -Para utilizar esse repositório, é necessário criar um ambiente virtual e instalar DJango;<br>
 
