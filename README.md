@@ -3,6 +3,17 @@
 Esse projeto foi criado pela equipe 08 de Projetos 2, com a finalidade de encontrar uma<br>
 solução ideal para o problema do cliente: ONG Gotas de Flor com Amor.
 
+**Integrantes de ciência da computação:** <br/>
+Júlia Veríssimo - jov@cesar.school <br/>
+Lucca da Veiga - lvg2@cesar.school <br/>
+Kaique Alves - @cesar.school <br/>
+Mell Brayner - @cesar.school <br/>
+Maria Luiza Calife - mlcdf@cesar.school <br/>
+Mirna Lustosa - mlam@cesar.school <br/>
+  
+Orientadora: Tatalina Silva de Oliveira.
+
+
 **Links importantes:**
 [**Jira**](https://nossojogo.atlassian.net/jira/software/projects/PROJ/boards/8) // [**Drive**](https://docs.google.com/document/d/16w1LVo044dzdBi4wykbR3jlEJW5XkNC2HyWPhA7UsNA/edit) <br/>
 
@@ -14,11 +25,10 @@ solução ideal para o problema do cliente: ONG Gotas de Flor com Amor.
 python -m venv nome_da_venv<br>
 Obs: o segundo "venv" é o nome do seu ambiente.
 
-Em windows: nome_da_venv\Scripts\activate.bat
-   
-nome_da_venv/scripts/activate
-
-pip install DJango
+Em Windows:<br>
+nome_da_venv\Scripts\activate<br>
+nome_da_venv/scripts/activate<br>
+pip install DJango<br>
 
 **--Relato do Pair Programming--**
 
