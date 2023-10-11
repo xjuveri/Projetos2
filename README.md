@@ -49,8 +49,8 @@ A nossa equipe teve a chance de testar o pair programming de forma positiva. A t
 -->Júlia Veríssimo e Maria Luiza Calife:<br/>
 Por meio do pair programming, a dupla conseguiu detectar os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/>
 
--->Mirna Lustosa e Mell Brayner:<br/>
+-->Mirna Lustosa e Lucca da Veiga:<br/>
 Através do pair programming, a dupla aprimorou suas habilidades de comunicação e colaboração, resultando em um código aperfeiçoado. <br/>
 
--->Lucca da Veiga e Kaique Alves:<br/>
+-->Mell Brayner e Kaique Alves:<br/>
 Com o uso do pair programming, a dupla  aprendeu novas técnicas e conceitos, resultando em um código limpo e bem trabalhado. <br/>
