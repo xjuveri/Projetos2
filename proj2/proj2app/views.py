@@ -7,9 +7,6 @@ from django.db import models
 # Create your views here.
 
 def home(request):
-    if request.method == "POST":
-        return render(request, 'usuarios/home.html')
-    elif request.method == "GET":
-        return render(request, 'usuarios/home.html')
-    else:
-        return HttpResponse('erro!')
+  
+    return render(request, 'home.html')
+  

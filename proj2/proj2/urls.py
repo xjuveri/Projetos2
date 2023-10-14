@@ -17,13 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import path, include
-from . import views
+from proj2app import views
 
 app_name="proj2"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('proj2.urls')),
+    path('', views.home, name='home'),
 
-    path('home/', views.home, name = 'home'),
 ]
