@@ -24,4 +24,6 @@ app_name="proj2"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('proj2.urls')),
+
+    path('home/', views.home, name = 'home'),
 ]
