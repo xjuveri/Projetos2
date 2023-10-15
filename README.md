@@ -29,9 +29,9 @@ Orientadora: Tatalina Silva de Oliveira.
 
 **Bug/issue tracker:**
 
-**Deployment das histórias:**
-Link-
-Instruções-
+**Deployment das histórias:**<br>
+Link-<br>
+Instruções-<br>
 
 **Screencast com áudio dos protótipos lo-fi:**
 
