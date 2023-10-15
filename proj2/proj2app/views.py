@@ -20,3 +20,18 @@ def login(request):
         form = MeuFormulario()
 
     return render(request, 'login.html', {'form': form})
+
+def cadastro(request):
+    if request.method == 'POST':
+        form = MeuFormulario(request.POST)
+        
+        if form.is_valid():
+            form.save()
+    
+            return redirect('login')
+    else:
+        form = MeuFormulario()
+        
+    return render(request, 'cadastro.html', {
+        'form': form
+    })
