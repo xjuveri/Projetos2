@@ -12,16 +12,16 @@
     <body>
         <header class=" header">
             <a ref="#" class="logo">
-                <i class = "fas fa-dumbell"></i>AlecrimDourado
+                <i class = "fas fa-dumbell"></i>Alecrim Dourado
             </a>
             <nav class="navbar">
-                <a= href="#">Home</a>
-                <a= href="#">Sobre nós</a>
-                <a= href="#">Prestações</a>
-                <a= href="#">Eventos</a>
-                <a= href="#">Contatos</a>
+                <a= href="#" class="botoes">Home</a>
+                <a= href="#" class="botoes">Sobre nós</a>
+                <a= href="#" class="botoes">Prestações</a>
+                <a= href="#" class="botoes">Eventos</a>
+                <a= href="#" class="botoes">Contatos</a>
                 <a= href="#">|</a>
-                <a= href="#">Login</a>
+                <a href="{% url 'login' %}" class="btn">Login</a>
                 <a= href="#" class="btn">Cadastro</a>
             </nav>
         </header>
@@ -29,13 +29,12 @@
         <section class="home">
             <div class="max-width">
                 <div class="homme-content">
-                    <h3>Alecrim <br> Dourado</h3> 
-                    <p> Olá! Somos o Alecrim Dourado, grupo número 8 da disciplina de projetos, 
-                    formado por alunos do segundo período da graduação de Design e de Ciência da Computação. 
-                    Temos como objetivo proporcionar uma solução inovadora ao problema do cliente apresentado para nós 
-                    e documentar o processo e conclusão nesse site, que também deve servir como repositório de informações</p>
-                    <button> Participe!</button>
-                </div>
+                    <h3>Alecrim  Dourado</h3> 
+                    <p class="textoPrincipal"> Olá! Somos o Alecrim Dourado, grupo número 8 da disciplina de projetos, 
+                    formado por alunos do segundo período da graduação de Design e de Ciência da Computação.
+                    </p>
+              </div>  
+                <a href="https://gotasdeflor.org.br" class="doar">Doe Agora!</a>
                 <div class= ".home-image">
                     <img scr = "" alt="Descrição da imagem">
                 </div>
