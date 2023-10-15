@@ -75,7 +75,35 @@ body{
     border: 1px solid #cc3333;
     font-size: 12px;
     padding: 8px;
-    
+}
 
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
 
+section{
+    padding: 50px 0 50px 0;
+
+}
+.home{
+    display: flex;
+
+}
+
+.home .max-width{
+    width: 100%;
+    display: flex;
+
+}
+.home .home-content{
+    width: 50%;
+    padding: 2rem;
+}
+.home h3{
+    color: #fff;
+    margin-top: 6rem;
+    font-size: 5rem;
+    font-family: 'Philosopher', sans-serif;
 }
