@@ -21,7 +21,7 @@ Orientadora: Tatalina Silva de Oliveira.
 
 
 **Links importantes:**
-[**Jira**](https://nossojogo.atlassian.net/jira/software/projects/PROJ/boards/8) // [**Drive**](https://docs.google.com/document/d/16w1LVo044dzdBi4wykbR3jlEJW5XkNC2HyWPhA7UsNA/edit) <br/>
+[**Jira**](https://nossojogo.atlassian.net/jira/software/projects/PROJ/boards/8) // [**Drive**](https://docs.google.com/document/d/16w1LVo044dzdBi4wykbR3jlEJW5XkNC2HyWPhA7UsNA/edit) // [**Figma**](https://www.figma.com/file/S9yj7GBhU3tigM3MrX8L7V/Untitled?type=design&node-id=0-1&mode=design&t=vkiNCcxdBzMPodUR-0) <br/>
 
 # Status Report 1
 
