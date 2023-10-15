@@ -3,13 +3,12 @@
 Esse projeto foi criado pela equipe 08 de Projetos 2, com a finalidade de encontrar uma<br>
 solução ideal para o problema do cliente: ONG Gotas de Flor com Amor.
 
-
+**Integrantes de ciência da computação:**<br/>
 | <img src="https://github.com/xjuveri.png" alt="Imagem de perfil do xjuveri" style="border-radius: 50%; border: 1px solid #000; width: 100px; height: 100px;"> | <img src="https://github.com/Luketam.png" alt="Imagem de perfil de Lucca" width="100" height="100"> | <img src="https://github.com/Kaiquegb.png" alt="Imagem de perfil do Kaiquegb" width="100" height="100"> | <img src="https://github.com/mell-brayner.png" alt="Imagem de perfil do mell-brayner" width="100" height="100"> | <img src="https://github.com/LuizaCalife.png" alt="Imagem de perfil do LuizaCalife" width="100" height="100"> | <img src="https://github.com/mihlamonteiro.png" alt="Imagem de perfil do mihlamonteiro" width="100" height="100"> |
 | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
 | [@xjuveri](https://github.com/xjuveri) | [@Luketam](https://github.com/Luketam) | [@Kaiquegb](https://https://github.com/Kaiquegb)                                      | [@mell-brayner](https://https://github.com/mell-brayner)  | [@LuizaCalife](https://github.com/LuizaCalife)                                                              | [@mihlamonteiro](https://github.com/mihlamonteiro)                                                              |
 
 
-**Integrantes de ciência da computação:**<br/>
 Júlia Veríssimo - jov@cesar.school <br/>
 Lucca da Veiga - lvg2@cesar.school <br/>
 Kaique Alves - kghas@cesar.school <br/>
