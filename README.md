@@ -53,7 +53,7 @@ nome_da_venv\Scripts\activate<br>
 nome_da_venv/scripts/activate<br>
 pip install Django<br>
 
-**--Relato do Pair Programming--**
+# --Relato do Pair Programming--
 
 A nossa equipe teve a chance de testar o pair programming de forma positiva. A troca contínua de conhecimento e habilidades entre os pares enriqueceu o nosso repertório coletivo e, também, individual. Essa abordagem cooperativa não só melhorou a nossa eficiência, mas também promoveu benefícios significativos para o nosso grupo, pois nos permitiu resolver problemas de forma produtiva. <br/>
 
