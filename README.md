@@ -9,7 +9,7 @@ solução ideal para o problema do cliente: ONG Gotas de Flor com Amor.
 | [@xjuveri](https://github.com/xjuveri) | [@Luketam](https://github.com/Luketam) | [@Kaiquegb](https://https://github.com/Kaiquegb)                                      | [@mell-brayner](https://https://github.com/mell-brayner)  | [@LuizaCalife](https://github.com/LuizaCalife)                                                              | [@mihlamonteiro](https://github.com/mihlamonteiro)                                                              |
 
 
-**Integrantes de ciência da computação:** <br/>
+**Integrantes de ciência da computação:**<br/>
 Júlia Veríssimo - jov@cesar.school <br/>
 Lucca da Veiga - lvg2@cesar.school <br/>
 Kaique Alves - kghas@cesar.school <br/>
