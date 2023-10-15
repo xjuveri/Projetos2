@@ -25,7 +25,18 @@ Orientadora: Tatalina Silva de Oliveira.
 
 # Status Report 1
 
-(add coisas aqui)
+**Sprint 1 do Jira:**
+
+**Bug/issue tracker:**
+
+**Deployment das histórias:**
+Link-
+Instruções-
+
+**Screencast com áudio dos protótipos lo-fi:**
+
+**Diagramama de atividades:**
+
 
 # Mais informações:
 
