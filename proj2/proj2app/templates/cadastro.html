@@ -1,0 +1,25 @@
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'cadastro.css' %}"> 
+
+    <title>Login Gotas</title>
+</head>
+<body>
+<div class="cadastro">
+    <div class="col-md-4 offset-md-4">
+        <div class="card">
+            <div class="body">
+            <h4 class="titulo text-center">Alecrim Dourado</h4>   
+                    <form method="post">
+                        {% csrf_token %} 
+                        {{ form.as_p }}
+                        <input type="submit" value="Enviar">
+                    </form>
+                <p class="change-form-p">Ainda nao tem uma conta?<a href="">Crie Agora!</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
