@@ -56,10 +56,13 @@ pip install Django<br>
 A nossa equipe teve a chance de testar o pair programming de forma positiva. A troca contínua de conhecimento e habilidades entre os pares enriqueceu o nosso repertório coletivo e, também, individual. Essa abordagem cooperativa não só melhorou a nossa eficiência, mas também promoveu benefícios significativos para o nosso grupo, pois nos permitiu resolver problemas de forma produtiva. <br/>
 
 -->Júlia Veríssimo e Maria Luiza Calife:<br/>
-Por meio do pair programming, a dupla  aprendeu novas técnicas e conceitos, resultando em um código limpo e bem trabalhado. <br/>
+Por meio do pair programming, a dupla  aprendeu novas<br>
+técnicas e conceitos, resultando em um código limpo e bem trabalhado. <br/>
 
 -->Mirna Lustosa e Lucca da Veiga:<br/>
-Através do pair programming, a dupla aprimorou suas habilidades de comunicação e colaboração, resultando em um código aperfeiçoado. <br/>
+Através do pair programming, a dupla aprimorou suas<br>
+habilidades de comunicação e colaboração, resultando em um código aperfeiçoado. <br/>
 
 -->Mell Brayner e Kaique Alves:<br/>
-Com o uso do pair programming, a dupla conseguiu detectar os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/>
+Com o uso do pair programming, a dupla conseguiu detectar<br>
+os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/>
