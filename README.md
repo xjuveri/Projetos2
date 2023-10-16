@@ -33,8 +33,8 @@ Instruções-<br>
 
 **Screencast com áudio dos protótipos lo-fi:**
 
-**Diagramama de atividades:**
-![projetos-miro](https://github.com/xjuveri/Projetos2/blob/main/diagrama_atividades.png)
+**Diagramama de atividades:**<hr>
+![projetos-miro](https://github.com/xjuveri/Projetos2/blob/main/diagrama_atividades.png)<hr>
 
 # Mais informações:
 
