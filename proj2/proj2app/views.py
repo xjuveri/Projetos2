@@ -37,3 +37,6 @@ def cadastro(request):
 
 def prestacao(request):
     return render(request,'prestacao.html')
+
+def eventos(request):
+    return render(request, 'eventos.html')
