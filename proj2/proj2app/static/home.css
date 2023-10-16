@@ -8,7 +8,7 @@
     text-decoration: none;
     box-sizing: border-box;
     transition: 0.2s linear;
-    text-transform: capitalize;
+    text-transform: none;
     font-family: "Poppins", sans-serif;
 }
 
@@ -69,6 +69,13 @@ body {
     margin-right: 2rem;
 }
 
+.botoes {
+    word-spacing: 10px; /* Ajuste o valor conforme necessário */
+  }
+.sem-espaco {
+    word-spacing: normal; /* Restaura o espaçamento padrão (sem espaçamento extra) */
+  }
+  
 .header .navbar {
     display: flex;
     align-items: center;
