@@ -3,8 +3,7 @@ from django.http.response import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from django.db import models
-from .forms import MeuLogin
-from .forms import MeuCadastro
+from .forms import MeuLogin, MeuCadastro
 
 # Create your views here.
 
@@ -35,3 +34,6 @@ def cadastro(request):
     return render(request, 'cadastro.html', {
         'form': form
     })
+
+def prestacao(request):
+    return render(request,'prestacao.html')

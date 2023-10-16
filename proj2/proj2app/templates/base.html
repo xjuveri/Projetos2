@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html language ="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> AlecrimDourado - Home | By code info</title>
+        <link rel="stylesheet" href="{% static 'home.css' %}">
+
+
+    </head>
+    <body>
+        <header class=" header">
+            <a ref="#" class="logo">
+                <i class = "fas fa-dumbell"></i>Alecrim Dourado
+            </a>
+            <nav class="navbar">
+                <a= href="#" class="botoes">Home</a>
+                <a= href="#" class="botoes">Sobre</a>
+                <a= href="#" class="botoes">Prestações</a>
+                <a= href="#" class="botoes">Eventos</a>
+                <a= href="#" class="botoes">Contatos</a>
+                <a= href="#">|</a>
+                <a href="{% url 'login' %}" class="btn">Login</a>
+                <a href="{% url 'cadastro' %}" class="btn">Cadastro</a>
+
+                
+                <body>
+                    {% block conteudo %}
+                    {% endblock %}
+                </body>
+            </nav>
+        </header>
+
