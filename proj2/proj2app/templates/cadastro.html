@@ -1,13 +1,14 @@
+
 {% load static %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="{% static 'cadastro.css' %}"> 
+    <link rel="stylesheet" type="text/css" href="{% static 'login.css' %}"> 
 
-    <title>Login Gotas</title>
+    <title>Cadastro Gotas</title>
 </head>
 <body>
-<div class="cadastro">
+<div class="login">
     <div class="col-md-4 offset-md-4">
         <div class="card">
             <div class="body">
@@ -17,7 +18,7 @@
                         {{ form.as_p }}
                         <input type="submit" value="Enviar">
                     </form>
-                <p class="change-form-p">Ainda nao tem uma conta?<a href="">Crie Agora!</a></p>
+                <p class="change-form-p">Já possui uma conta?<a href=""> Acesse Agora!</a></p>
             </div>
         </div>
     </div>

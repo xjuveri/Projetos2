@@ -3,7 +3,8 @@ from django.http.response import HttpResponse, HttpResponseRedirect
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from django.db import models
-from .forms import MeuFormulario
+from .forms import MeuLogin
+from .forms import MeuCadastro
 
 # Create your views here.
 
@@ -12,24 +13,24 @@ def home(request):
 
 def login(request):
     if request.method == 'POST':
-        form = MeuFormulario(request.POST)
+        form = MeuLogin(request.POST)
         if form.is_valid():
             return redirect('home.html')
     else:
-        form = MeuFormulario()
+        form = MeuLogin()
 
     return render(request, 'login.html', {'form': form})
   
 def cadastro(request):
     if request.method == 'POST':
-        form = MeuFormulario(request.POST)
+        form = MeuCadastro(request.POST)
 
         if form.is_valid():
             form.save()
 
             return redirect('login')
     else:
-        form = MeuFormulario()
+        form = MeuCadastro()
 
     return render(request, 'cadastro.html', {
         'form': form
