@@ -13,7 +13,7 @@ Júlia Veríssimo - jov@cesar.school <br/>
 Lucca da Veiga - lvg2@cesar.school <br/>
 Kaique Alves - kghas@cesar.school <br/>
 Mell Brayner - mbc@cesar.school <br/>
-Maria Luiza Calife - mlcdf@cesar.school <br/>
+Luiza Calife - mlcdf@cesar.school <br/>
 Mirna Lustosa - mlam@cesar.school <br/>
   
 Orientadora: Tatalina Silva de Oliveira.
