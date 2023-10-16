@@ -1,56 +1,24 @@
 {% extends 'base.html' %}
-
 {% block title %}Tópicos com Retângulos{% endblock %}
-
 {% block content %}
-<style>
-        .topic-container {
-            text-align: center;
-        }
-        
-        .topic {
-            width: calc(33.33% - 10px); /* 20px de margem entre os retângulos */
-            height: 100px;
-            background-color: #e1aa4a;
-            color: #fff;
-            line-height: 150px;
-            margin: 10px;
-            border: 2px solid #333;
-            display: inline-block;
-            
-        }
-
-        .topic h2 {
-            font-size: 15px;
-            margin: 5px 1;
-            
-            
-        }
-
-        .topic p {
-            font-size: 14px;
-            margin: 5px 1;
-        }
-
-
-    </style>
+<div class="container">
     <div class="topic">
         <h2>ESTATUTO</h2>
     </div>
     <div class="topic">
-        <h2>DOCUMENTOS CONTABEIS</h2>
+        <h2>DOCUMENTOS CONTÁBEIS</h2>
     </div>
     <div class="topic">
-        <h2>CERTIDORES</h2>
+        <h2>CERTIDÕES</h2>
     </div>
     <div class="topic">
-        <h2>INVENTARIO PATRIMONIAL</h2>
+        <h2>INVENTÁRIO PATRIMONIAL</h2>
     </div>
     <div class="topic">
-        <h2>RELATORIO DE ATIVIDADES</h2>
+        <h2>RELATÓRIO DE ATIVIDADES</h2>
     </div>
     <div class="topic">
         <h2>PARECER DO CONSELHO FISCAL</h2>
     </div>
+</div>
 {% endblock %}
-
