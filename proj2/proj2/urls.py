@@ -25,10 +25,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('login/', views.login, name='login'),
-<<<<<<< HEAD
     path('cadastro/', views.cadastro, name='cadastro'),
-=======
-    path('cadastro/', views.cadastro, name = 'cadastro')
->>>>>>> 40713ae2b0824e7b1b349a885224f9ede39f633c
 ]
 
