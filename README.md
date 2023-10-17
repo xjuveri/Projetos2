@@ -31,11 +31,12 @@ Orientadora: Tatalina Silva de Oliveira.
 ![bug-issue-tracker](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20tela%202023-10-17%20010801.png)<hr>
 
 ### Deployment das histórias:
-[**Link da Azure**](http://alecrim-dourado2.azurewebsites.net/) // [**Protótipos Lo-Fi Figma**](https://www.figma.com/file/S9yj7GBhU3tigM3MrX8L7V/Untitled?type=design&node-id=0-1&mode=design&t=vkiNCcxdBzMPodUR-0) <br/>
+[**Link da Azure**](http://alecrim-dourado2.azurewebsites.net/) // [**Protótipos Lo-Fi Figma**](https://www.figma.com/file/S9yj7GBhU3tigM3MrX8L7V/Untitled?type=design&node-id=0-1&mode=design&t=vkiNCcxdBzMPodUR-0) <hr>
 
 ### Screencast com áudio dos protótipos lo-fi:
 
 ### Screencast com áudio do sistema:
+[**Link do Screencast**](https://drive.google.com/drive/folders/1VF3NuN753dJ0PeoVstJBVBAzz5ocWyxR)<hr>
 
 ### Diagramama de atividades:
 ![Design sem nome (1)](https://github.com/xjuveri/Projetos2/assets/126585562/afd3b921-f225-4696-b0ef-741c455f8432)<hr>
