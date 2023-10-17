@@ -40,7 +40,7 @@ Instruções-<br>
 
 # Mais informações:
 
-## --Instruções de para instalar o projeto--
+## --Instruções de para instalar o projeto-- ##
 
 -Para utilizar esse repositório, é necessário criar um ambiente virtual e instalar DJango;<br>
 -Crie um ambiente virtual utilizando o comando:<br>
