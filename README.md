@@ -28,7 +28,7 @@ Orientadora: Tatalina Silva de Oliveira.
 ![sprint-jira](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20Tela%20(33).png)<hr>
 
 ### Bug/issue tracker:
-![bug-issue-tracker](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20tela%202023-10-16%20200152.png)<hr>
+![bug-issue-tracker](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20tela%202023-10-17%20010801.png)<hr>
 
 ### Deployment das histórias:
 [**Link da Azure**](http://alecrim-dourado2.azurewebsites.net/) // [**Protótipos Lo-Fi Figma**](https://www.figma.com/file/S9yj7GBhU3tigM3MrX8L7V/Untitled?type=design&node-id=0-1&mode=design&t=vkiNCcxdBzMPodUR-0) <br/>
