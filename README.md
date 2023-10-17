@@ -31,10 +31,8 @@ Orientadora: Tatalina Silva de Oliveira.
 ![bug-issue-tracker](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20tela%202023-10-16%20200152.png)<hr>
 
 ### Deployment das histórias:
-<br>
-
-[**Link**](http://alecrim-dourado2.azurewebsites.net/) <br>
-Instruções- <br>
+[**Link da Azure**](http://alecrim-dourado2.azurewebsites.net/) <br>
+Instruções de acesso-  <br>
 
 ### Screencast com áudio dos protótipos lo-fi:
 
