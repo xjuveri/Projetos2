@@ -24,18 +24,20 @@ Orientadora: Tatalina Silva de Oliveira.
 # Status Report 1
 <hr>
 
-### Sprint 1 do Jira: <hr>
-![sprint-jira](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20Tela%20(33).png)
+### Sprint 1 do Jira:
+![sprint-jira](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20Tela%20(33).png)<hr>
 
-<b>Bug/issue tracker:</b><hr>
+### Bug/issue tracker:
 ![bug-issue-tracker](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20tela%202023-10-16%20200152.png)<hr>
-**Deployment das histórias:**<br>
+
+### Deployment das histórias:
+<br>
 Link-<br>
 Instruções-<br>
 
-**Screencast com áudio dos protótipos lo-fi:**
+### Screencast com áudio dos protótipos lo-fi:
 
-**Diagramama de atividades:**<hr>
+### Diagramama de atividades:
 ![projetos-miro](https://github.com/xjuveri/Projetos2/blob/main/diagrama_atividades.png)<hr>
 
 # Mais informações:
