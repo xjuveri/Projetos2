@@ -38,7 +38,7 @@ Orientadora: Tatalina Silva de Oliveira.
 ### Screencast com áudio do sistema:
 
 ### Diagramama de atividades:
-![projetos-miro](https://github.com/xjuveri/Projetos2/blob/main/diagrama_atividades.png)<hr>
+![Design sem nome (1)](https://github.com/xjuveri/Projetos2/assets/126585562/afd3b921-f225-4696-b0ef-741c455f8432)<hr>
 
 # Mais informações:
 
