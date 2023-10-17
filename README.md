@@ -32,11 +32,10 @@ Orientadora: Tatalina Silva de Oliveira.
 
 ### Deployment das histórias:
 [**Link da Azure**](http://alecrim-dourado2.azurewebsites.net/) // [**Protótipos Lo-Fi Figma**](https://www.figma.com/file/S9yj7GBhU3tigM3MrX8L7V/Untitled?type=design&node-id=0-1&mode=design&t=vkiNCcxdBzMPodUR-0) <br/>
-Instruções de acesso-  <br>
 
 ### Screencast com áudio dos protótipos lo-fi:
 
-### Screencast com áudio das telas na Azure:
+### Screencast com áudio do sistema:
 
 ### Diagramama de atividades:
 ![projetos-miro](https://github.com/xjuveri/Projetos2/blob/main/diagrama_atividades.png)<hr>
