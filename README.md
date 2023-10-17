@@ -32,6 +32,7 @@ Orientadora: Tatalina Silva de Oliveira.
 
 ### Deployment das histórias:
 <br>
+
 [**Link**](http://alecrim-dourado2.azurewebsites.net/) <br>
 Instruções- <br>
 
