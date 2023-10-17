@@ -23,7 +23,7 @@ Orientadora: Tatalina Silva de Oliveira.
 
 # Status Report 1
 **Sprint 1 do Jira:**<hr>
-![sprint-jira](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20Tela%20(33).png)<hr>
+![sprint-jira](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20Tela%20(33).png)<br>
 
 **Bug/issue tracker:**<hr>
 ![bug-issue-tracker](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20tela%202023-10-16%20200152.png)<hr>
