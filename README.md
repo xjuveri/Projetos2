@@ -29,13 +29,13 @@ Orientadora: Tatalina Silva de Oliveira.
 
 ### Bug/issue tracker:
 ![bug-issue-tracker](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20tela%202023-10-16%20200152.png)<hr>
-**Deployment das histórias:**<br>
+### Deployment das histórias:<br>
 Link-<br>
 Instruções-<br>
 
-**Screencast com áudio dos protótipos lo-fi:**
+### Screencast com áudio dos protótipos lo-fi:
 
-**Diagramama de atividades:**<hr>
+### Diagramama de atividades:
 ![projetos-miro](https://github.com/xjuveri/Projetos2/blob/main/diagrama_atividades.png)<hr>
 
 # Mais informações:
