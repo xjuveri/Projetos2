@@ -22,8 +22,7 @@ Orientadora: Tatalina Silva de Oliveira.
 [**Jira**](https://nossojogo.atlassian.net/jira/software/projects/PROJ/boards/8) // [**Drive**](https://drive.google.com/drive/folders/1S0-wo88DWXzwQU5mceZAUBgelLNORQKG?usp=drive_link) // [**Figma**](https://www.figma.com/file/S9yj7GBhU3tigM3MrX8L7V/Untitled?type=design&node-id=0-1&mode=design&t=vkiNCcxdBzMPodUR-0) <br/>
 
 # Status Report 1
-<hr>
-**Sprint 1 do Jira:**
+**Sprint 1 do Jira:**<hr>
 ![sprint-jira](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20Tela%20(33).png)<hr>
 
 <b>Bug/issue tracker:</b>
