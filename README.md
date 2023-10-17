@@ -19,7 +19,7 @@ Orientadora: Tatalina Silva de Oliveira.
 
 
 **Links importantes:**
-[**Jira**](https://nossojogo.atlassian.net/jira/software/projects/PROJ/boards/8) // [**Drive**](https://drive.google.com/drive/folders/1S0-wo88DWXzwQU5mceZAUBgelLNORQKG?usp=drive_link) // [**Figma**](https://www.figma.com/file/S9yj7GBhU3tigM3MrX8L7V/Untitled?type=design&node-id=0-1&mode=design&t=vkiNCcxdBzMPodUR-0) <br/>
+[**Jira**](https://nossojogo.atlassian.net/jira/software/projects/PROJ/boards/8) // [**Drive**](https://drive.google.com/drive/folders/1S0-wo88DWXzwQU5mceZAUBgelLNORQKG?usp=drive_link)
 
 # Status Report 1
 <hr>
@@ -31,7 +31,7 @@ Orientadora: Tatalina Silva de Oliveira.
 ![bug-issue-tracker](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20tela%202023-10-16%20200152.png)<hr>
 
 ### Deployment das histórias:
-[**Link da Azure**](http://alecrim-dourado2.azurewebsites.net/) <br>
+[**Link da Azure**](http://alecrim-dourado2.azurewebsites.net/) // // [**Protótipos Lo-Fi Figma**](https://www.figma.com/file/S9yj7GBhU3tigM3MrX8L7V/Untitled?type=design&node-id=0-1&mode=design&t=vkiNCcxdBzMPodUR-0) <br/>
 Instruções de acesso-  <br>
 
 ### Screencast com áudio dos protótipos lo-fi:
