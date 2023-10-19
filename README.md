@@ -34,7 +34,7 @@ Orientadora: Tatalina Silva de Oliveira.
 [**Link da Azure**](http://alecrim-dourado2.azurewebsites.net/) // [**Protótipos Lo-Fi Figma**](https://www.figma.com/file/S9yj7GBhU3tigM3MrX8L7V/Untitled?type=design&node-id=0-1&mode=design&t=vkiNCcxdBzMPodUR-0) <hr>
 
 ### Screencast com áudio dos protótipos lo-fi:
-<hr>
+[**Link do Screencast**](https://drive.google.com/drive/folders/1VF3NuN753dJ0PeoVstJBVBAzz5ocWyxR)<hr>
 
 ### Screencast com áudio do sistema:
 [**Link do Screencast**](https://drive.google.com/drive/u/2/folders/1VF3NuN753dJ0PeoVstJBVBAzz5ocWyxR)<hr>
