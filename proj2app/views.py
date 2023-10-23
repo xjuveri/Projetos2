@@ -40,3 +40,4 @@ def prestacao(request):
 
 def eventos(request):
     return render(request, 'eventos.html')
+
