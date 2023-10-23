@@ -9,29 +9,8 @@
     <link rel="stylesheet" type="text/css" href="{% static 'prestacao.css' %}">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="botoes">
-            <a href="{% url 'home' %}">
-                AlecrimDourado
-            </a>
-        </div>
-        <div class="navbar">
-            <a class="header" href="{% url 'prestacao' %}">
-                <i class="fa-regular fa-weight-scale"></i>
-                <span>
-                    Prestações / Financeiro
-                </span>
-            </a>
-        </div>
-        <div class="navbar">
-            <a class="header" href="{% url 'eventos' %}">
-                <i class="fa-regular fa-weight-scale"></i>
-                <span>
-                    eventos
-                </span>
-            </a>
-        </div>
-    </nav>
+
+    
     <div class="conteudo">
         {% block content %}
         {% endblock %}
