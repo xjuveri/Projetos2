@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Relatórios</h1>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Professor</th>
+                <th>Atividade</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for relatorio in relatorios %}
+                <tr>
+                    <td>{{ relatorio.professor }}</td>
+                    <td>{{ relatorio.atividade }}</td>
+                    <td>{{ relatorio.data }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
