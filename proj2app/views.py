@@ -4,6 +4,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from django.db import models
 from .forms import MeuLogin, MeuCadastro
+from .models import ProgressoAluno
 
 # Create your views here.
 
@@ -43,3 +44,7 @@ def eventos(request):
 
 def grafico(request):
     return render(request, 'grafico.html')
+
+def relatorios(request):
+    relatorios = Relatorio.objects.all()
+    return render(request, 'relatorios.html', {'relatorios': relatorios})
