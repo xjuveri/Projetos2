@@ -5,8 +5,7 @@ body, h1, h2, h3, h4, p, ul, li, form, input {
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #adce8f;
+    background-color: #96DBE2;
 }
 
 .login {
@@ -15,15 +14,6 @@ body {
     align-items: center;
     height: 100vh;
 }
-
-.card {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 60px;
-}
-
 .titulo {
     text-align: center;
     padding-bottom: 50px;

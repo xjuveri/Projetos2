@@ -10,9 +10,9 @@
 <body>
 <div class="login">
     <div class="col-md-4 offset-md-4">
-        <div class="card">
+        
             <div class="body">
-            <h4 class="titulo text-center">Alecrim Dourado</h4>   
+                <img src="{% static 'proj2app\static\images\logo.png' %}" alt="{{ image.title }}" class="imagem">  
                     <form method="post">
                         {% csrf_token %} 
                         {{ form.as_p }}
@@ -20,7 +20,6 @@
                     </form>
                 <p class="change-form-p">Ainda não possui uma conta?<a href="{% url 'cadastro' %}"> Crie Agora!</a></p>
             </div>
-        </div>
     </div>
 </div>
 </body>

@@ -1,16 +1,6 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    transition: 0.2s linear;
-    text-transform: none;
-    font-family: "Poppins", sans-serif;
-}
+
 .TextoOla {
     font-size: 55px;
     font-weight: bold;
@@ -26,99 +16,8 @@ body {
     font-weight: bold;
     color:#0A0C38;
 }
-.doar {
-    margin-top: 30px;
-    width: 120px;
-    padding: 12px;
-    color: #fff; 
-    background: #ff6600; 
-    font-size: 16px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background 0.4s;
-    text-align: center;
-}
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    padding: 1.5rem 8%;
-    display: flex;
-    align-items: center;
-    color: #ffffff;
-    justify-content: space-between;
-    background: #0A0C38; 
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
 
-.header .logo {
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    margin-right: 2rem;
-}
 
-.botoes {
-    word-spacing: 5px;
-    font-weight: bold;
-    color: #43E3F3;
-  }
-
-  
-.header .navbar {
-    display: flex;
-    align-items: center;
-    margin-right: 2rem;
-}
-
-.header .btn {
-    background: #fff;
-    color: rgb(0, 21, 255);
-    border: 1px solid #003cff;
-    font-size: 16px;
-    padding: 12px;
-    border-radius: 4px;
-}
-
-.max-width {
-    max-width: 1300px;
-    padding: 0 2rem;
-    margin: auto;
-}
-
-section {
-    padding: 4rem 0;
-}
-
-.home {
-    display: flex;
-    flex-direction: column;
-}
-
-.home .max-width {
-    width: 100%;
-    display: flex;
-    flex-direction: column; 
-}
-
-.home .home-content {
-    width: 100%; 
-    padding: 2rem;
-    background: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-top: 2rem; 
-}
-.home h3 {
-    color: #a17050;
-    font-size: 37px;
-    font-family: 'Philosopher', sans-serif;
-    padding-top: 40px;
-}
-
-/* Estilo para versão mobile */
 @media (max-width: 768px) {
     .header {
         padding: 1rem 4%;
