@@ -5,7 +5,7 @@ body, h1, h2, h3, h4, p, ul, li, form, input {
 }
 
 body {
-    background-color: #96DBE2;
+    background-color: #70b4bb;
 }
 
 .login {
@@ -13,12 +13,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-.titulo {
-    text-align: center;
-    padding-bottom: 50px;
-    color: #b1761e;
-    font-size: 30px;
 }
 
 form {
@@ -31,7 +25,7 @@ form input {
 }
 
 form input[type="submit"] {
-    background-color: #f5b47f;
+    background-color: #7f81f5;
     color: #613e0b;
     border: none;
     border-radius: 10px;
