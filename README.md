@@ -72,3 +72,35 @@ habilidades de comunicação e colaboração, resultando em um código aperfeiç
 -->Mell Brayner e Kaique Alves:<br/>
 Com o uso do pair programming, a dupla conseguiu detectar<br>
 os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/>
+
+# Status Report 2
+<hr>
+### Sprint 1 do Jira:
+<hr>
+
+### Bug/issue tracker:
+<hr>
+
+### Deployment das histórias:
+[**Link da Azure**](http://alecrim-dourado2.azurewebsites.net/) // **Protótipo de média Figma**<hr>
+
+### Screencast dos protótipos lo-fi:
+<hr>
+
+### Screencast do sistema:
+<hr>
+
+### Screencast dos testes:
+<hr>
+
+### CI/CD com deploy automatizado:
+(criar pipeline)
+<hr>
+
+### Diagramama de atividades:
+<hr>
+
+### Relato do Pair Programming:
+<hr>
+
+
