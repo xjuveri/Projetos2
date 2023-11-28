@@ -75,7 +75,8 @@ os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/
 
 # Status Report 2
 <hr>
-### Sprint 1 do Jira:
+
+### Sprint 2 do Jira:
 <hr>
 
 ### Bug/issue tracker:
