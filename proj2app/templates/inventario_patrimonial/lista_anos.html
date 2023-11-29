@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista de Anos - AlecrimDourado{% endblock %}
+
+{% block content %}
+  <h1>Anos</h1>
+  <ul>
+    {% for ano in anos %}
+      <li>
+        <a href="{% url 'lista_meses' ano=ano.ano %}">{{ ano.ano }}</a>
+        <form method="post" style="display: inline;">
+          {% csrf_token %}
+          <input type="hidden" name="action" value="excluir_ano">
+          <input type="hidden" name="ano_id" value="{{ ano.id }}">
+          <button type="submit" onclick="return confirm('Tem certeza que deseja excluir o ano {{ ano.ano }}?')">Excluir</button>
+        </form>
+      </li>
+    {% endfor %}
+  </ul>
+  
+  <form method="post">
+    {% csrf_token %}
+    <label for="novo_ano">Novo Ano:</label>
+    <input type="text" name="novo_ano" required>
+    <input type="hidden" name="action" value="adicionar_ano">
+    <button type="submit">Adicionar Ano</button>
+  </form>
+{% endblock %}

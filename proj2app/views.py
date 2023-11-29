@@ -44,7 +44,3 @@ def eventos(request):
 
 def grafico(request):
     return render(request, 'grafico.html')
-
-def relatorios(request):
-    relatorios = Relatorio.objects.all()
-    return render(request, 'relatorios.html', {'relatorios': relatorios})

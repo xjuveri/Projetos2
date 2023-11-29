@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'proj2app',
+    'inventario_patrimonial',
 ]
 
 MIDDLEWARE = [

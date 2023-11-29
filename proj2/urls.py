@@ -29,5 +29,6 @@ urlpatterns = [
     path('prestacao/',views.prestacao, name= 'prestacao'),
     path('eventos/', views.eventos, name = 'eventos'),
     path('grafico/', views.grafico, name = 'grafico'),
+    path('inventario/', include('inventario_patrimonial.urls')),
 ]
 

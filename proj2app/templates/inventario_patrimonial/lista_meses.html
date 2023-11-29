@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ ano }} - Meses - AlecrimDourado{% endblock %}
+
+{% block content %}
+  <h1>Meses de {{ ano }}</h1>
+  <ul>
+    {% for mes in meses %}
+      <li>
+        <a href="{% url 'lista_paginas' ano=ano.ano mes=mes.nome %}">{{ mes.nome }}</a>
+        <form method="post" style="display: inline;">
+          {% csrf_token %}
+          <input type="hidden" name="action" value="excluir_mes">
+          <input type="hidden" name="mes_id" value="{{ mes.id }}">
+          <button type="submit" onclick="return confirm('Tem certeza que deseja excluir o mês {{ mes.nome }}?')">Excluir</button>
+        </form>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <form method="post">
+    {% csrf_token %}
+    <label for="novo_mes">Novo Mês:</label>
+    <input type="text" name="novo_mes" required>
+    <input type="hidden" name="action" value="adicionar_mes">
+    <button type="submit">Adicionar Mês</button>
+  </form>
+  
+  <a href="{% url 'lista_anos' %}">Voltar para Anos</a>
+{% endblock %}
