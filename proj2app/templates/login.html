@@ -9,17 +9,20 @@
 </head>
 <body>
 <div class="login">
+<div >
+    
     <div class="col-md-4 offset-md-4">
-        
+        <img src="{% static 'images/logo.jpg' %}" alt="Minha Logo" width=300 height= 300 class="logo">
             <div class="body">
-                <img src="{% static 'proj2app\static\images\logo.png' %}" alt="{{ image.title }}" class="imagem">  
-                    <form method="post">
+                <form method="post">
                         {% csrf_token %} 
                         {{ form.as_p }}
-                        <input type="submit" value="Enviar">
+                        <p class="change-form-p">ESQUECI MINHA SENHA</p>
                     </form>
-                <p class="change-form-p">Ainda não possui uma conta?<a href="{% url 'cadastro' %}"> Crie Agora!</a></p>
+                    <input type="submit" value="ENTRAR" class="buttonSub">
+                
             </div>
     </div>
+</div>
 </div>
 </body>
