@@ -77,6 +77,7 @@ os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/
 <hr>
 
 ### Sprint 2 do Jira:
+![Captura de tela 2023-11-30 041509](https://github.com/xjuveri/Projetos2/assets/126585562/6dfaa819-1ac0-46ba-8948-578e3927b15e)
 <hr>
 
 ### Bug/issue tracker:
