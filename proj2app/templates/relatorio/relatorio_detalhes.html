@@ -1,0 +1,17 @@
+<!-- relatorio/templates/relatorio/relatorio_detalhes.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Relatório de {{ relatorio.data|date:"F" }}</h2>
+  <p>Data: {{ relatorio.data }}</p>
+  <p>Nome do Usuário: {{ relatorio.nome_usuario }}</p>
+  <p>Bloco de Notas: {{ relatorio.bloco_notas }}</p>
+
+  <!-- Adicione o formulário para exclusão do relatório -->
+  <form method="post" action="">
+    {% csrf_token %}
+    <button type="submit" name="excluir" onclick="return confirm('Tem certeza que deseja excluir este relatório?')">Excluir Relatório</button>
+  </form>
+
+  <a href="{% url 'relatorios_do_mes' mes=relatorio.data.month %}">Voltar para Relatórios</a>
+{% endblock %}

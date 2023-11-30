@@ -1,10 +1,11 @@
 {% load static %}
 
 <header class="header">
-    <img src="{% static 'images/logoclara.png' %}" alt="Icone Gotas" width="70" height="70" class="logo">
+    <a href="{% url 'home' %}" class="btn">
+        <img src="{% static 'images\logoclara.png' %}" alt="Login" width="80" height="80">
     <div class="content">
         <nav class="navbar">
-            <a href="#" class="botoes">QUEM SOMOS</a>
+            <a href="{% url 'quemSomos' %}" class="botoes">QUEM SOMOS</a>
             <a href="{% url 'prestacao' %}" class="botoes">DOCUMENTOS</a>
             <a href="{% url 'comoAjudar' %}" class="botoes">COMO AJUDAR</a>
             

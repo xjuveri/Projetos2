@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Educador</title>
+    <!-- Adicione seus estilos CSS aqui -->
+    <link rel="stylesheet" href="{% static 'css/perfil_educador.css' %}">
+</head>
+<body>
+
+<div class="profile-card">
+    <div class="profile-card">
+        <h2>Perfil do Educador</h2>
+        <p>Nome: {{ user.profileeducador.nome }}</p>
+        <p>Data de Nascimento: {{ user.profileeducador.data_nascimento }}</p>
+        <p>Idade: {{ user.profileeducador.idade }}</p>
+        <p>Sexo: {{ user.profileeducador.sexo }}</p>
+    </div>
+
+<div class="additional-info">
+    <h3>Lista de Presença</h3>
+    <!-- Adicione a lista de presença aqui -->
+
+    <h3>Atividades</h3>
+    <!-- Adicione a lista de atividades aqui -->
+
+    <h3>Turmas</h3>
+    <!-- Adicione a lista de turmas aqui -->
+
+    <h3>Relatórios</h3>
+    <!-- Adicione a lista de relatórios aqui -->
+</div>
+
+</body>
+</html>
