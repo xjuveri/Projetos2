@@ -89,3 +89,5 @@ def eventos(request):
 
 def grafico(request):
     return render(request, 'grafico.html')
+def turmas(request):
+    return render(request,'turmas.html')

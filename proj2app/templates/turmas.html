@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'turmas.css' %}">
+</head>
+<body>
+    
+    {% include 'partials/_barra.html' %}
+    <div class="containerTexto">
+    <img src="{% static 'images/icone flor.png' %}" alt="Minha Logo" width=80 height= 80 class="logo">
+     <h1>TURMAS</h1>
+    </div>
+<div class="containerTurmas">
+   
+    <input type="submit" value="EU E O MUNDO" class="button" formaction="{% url 'home' %}">
+    <input type="submit" value="NÓS E O MUNDO" class="button" formaction="{% url 'home' %}">
+
+</div>
+</body>
+</html>
