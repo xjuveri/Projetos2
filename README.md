@@ -96,8 +96,6 @@ os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/
 ->[**Link pro Drive**](https://drive.google.com/drive/u/2/folders/116l0-8ssIkTG3AkbH4aThU0iql-np-TA)
 <hr>
 
-### Screencast dos testes:
-<hr>
 
 ### Diagramama de atividades:
 ->[**Link pro Docs**](https://docs.google.com/document/d/1rnzSw0N2aGMBqsRjIIsWfuWKIgWivA6YXCzRadwv5uc/edit)
