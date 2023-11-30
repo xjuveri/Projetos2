@@ -1,0 +1,18 @@
+<!-- relatorio/templates/relatorio/relatorios_do_mes.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Relatórios de {{ nome_mes }}</h2>
+  <ul>
+    {% for relatorio in relatorios %}
+      <li>
+        <a href="{% url 'relatorio_detalhes' relatorio_id=relatorio.id %}">
+          {{ relatorio.titulo }} - {{ relatorio.data }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+  <a href="{% url 'criar_relatorio' mes=mes %}">Criar Relatório</a>
+  <br>
+  <a href="{% url 'meses_do_ano' %}">Voltar para Meses do Ano</a>
+{% endblock %}

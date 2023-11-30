@@ -31,7 +31,7 @@ Orientadora: Tatalina Silva de Oliveira.
 ![bug-issue-tracker](https://github.com/xjuveri/Projetos2/blob/main/Captura%20de%20tela%202023-10-17%20010801.png)<hr>
 
 ### Deployment das histórias:
-[**Link da Azure**](http://alecrim-dourado2.azurewebsites.net/) // [**Protótipo de média Figma**](https://www.figma.com/file/pJ3LCPDVHkmArc31JDybi0/PROTÓTIPO-MÉDIA-FIDELIDADE-PRO-GOTAS?type=design&node-id=0-1&mode=design&t=n27MiQhxlVgNsEQI-0) <hr>
+[**Protótipo de média Figma**](https://www.figma.com/file/pJ3LCPDVHkmArc31JDybi0/PROTÓTIPO-MÉDIA-FIDELIDADE-PRO-GOTAS?type=design&node-id=0-1&mode=design&t=n27MiQhxlVgNsEQI-0) <hr>
 
 ### Screencast com áudio dos protótipos lo-fi:
 [**Link do Screencast**](https://drive.google.com/drive/folders/1VF3NuN753dJ0PeoVstJBVBAzz5ocWyxR)<hr>
@@ -83,12 +83,14 @@ os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/
 <hr>
 
 ### Deployment das histórias:
-[**Link da Azure**](http://alecrim-dourado2.azurewebsites.net/) // **Protótipo de média Figma**<hr>
+->[**Link da Azure**](https://alecrim-dourado.azurewebsites.net/#)<br>
+->[**Protótipo de média Figma**](https://www.figma.com/file/pJ3LCPDVHkmArc31JDybi0/PROT%C3%93TIPO-M%C3%89DIA-FIDELIDADE-PRO-GOTAS?type=design&node-id=0-1&mode=design)<hr>
 
 ### Screencast dos protótipos lo-fi:
 <hr>
 
 ### Screencast do sistema:
+->[**Link pro Drive**](https://drive.google.com/drive/u/2/folders/116l0-8ssIkTG3AkbH4aThU0iql-np-TA)
 <hr>
 
 ### Screencast dos testes:

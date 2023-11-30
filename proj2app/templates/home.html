@@ -1,18 +1,32 @@
 {% load static %}
 
 <!DOCTYPE html>
-<html language ="en">
-    <head>
-        <meta charset="UTF-8">
-        <title> Gotas de Flor - Home </title>
-        <link rel="stylesheet" href="{% static 'home.css' %}">
-        
-        
-    <body>
-        {% include 'partials/_barra.html' %}
-        
-               
-            </div>
-     
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gotas de Flor - Home</title>
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+</head>
+<body>
+    {% include 'partials/_barra.html' %}
+    <div class="content-container">
+        <div class="text-container">
+            <h1>Olá!</h1>
+            <p>Para ajudar a comunidade do entorno da Avenida Jornalista Roberto Marinho, localizada entre os bairros do Brooklin e Campo Belo na Zona Sul de São Paulo, em 1992 surgiu o Gotas de Flor com Amor, um programa social que está presente na vida de vários jovens e crianças, fazendo a diferença e proporcionando a chance que eles tanto precisam para se tornarem seres humanos de sucesso.</p>
+        </div>
+        <div class="image-container">
+            <img src="{% static 'images\aula-artes-quadrada.jpg' %}" alt="criancas em atividade" class="foto1" width="500" height="500">
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="text-container">
+            <p>E nós somos o Alecrim Dourado, grupo número 8 da disciplina de projetos, formado por alunos do segundo período da graduação de Design e de Ciência da computação da CESAR School. A partir do problema
+                 apresentado pelo cliente a nós, desenvolvemos essa aplicação como solução.</p>
+        </div>
+        <div class="image-container">
+            <img src="{% static 'images\logo branca.png' %}" alt="logo clara" class="foto2" width="400" height="400">
+        </div>
+    </div>
+
+</body>
 </html>

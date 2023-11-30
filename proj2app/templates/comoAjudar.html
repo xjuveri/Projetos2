@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'comoAjudar.css' %}">
+</head>
+<body>
+    {% include 'partials/_barra.html' %}
+    <div class="containerAjuda">
+    <div class="textosAjuda">
+        <h1>ESTOU INTERESSADO! </h1>
+        <h3>Como posso ajudar?</h3>
+        <p>Existem diversas formas de contribuir para o nosso projeto, seja como Pessoa Física, onde você tem a opção de apadrinhar uma 
+            criança ou tornar-se Amigo do Gotas com uma doação mensal nos valores de R$50, R$100 ou R$500. Além dessas opções, também oferecemos alternativas como Empresa
+             Amiga e Voluntariado Empresarial. Ao escolher qualquer uma dessas modalidades, você estará não apenas ajudando na redução da desigualdade social,
+             mas também fomentando um mundo mais justo para nossos jovens e crianças!</p>
+        <h2>Clique no link abaixo!</h2>
+    </div>
+    <div>
+        <img src="{% static 'images/pinturaLapis.jpg' %}" alt="Pintura a Lapis" width=400 height= 400 class="fotos">
+        <img src="{% static 'images/yoga.jpeg' %}" alt="Criancas realizando yoga" width=400 height= 400 class="fotos">
+        <img src="{% static 'images/horta.jpg' %}" alt="Horta das criancas" width=400 height= 400 class="fotos">
+        <img src="{% static 'images/capoeira.jpg' %}" alt="Menino realizando capoeira" width=400 height= 400 class="fotos">
+
+    </div>
+    <div class="botao">
+    <a href="https://pagseguro.uol.com.br/checkout/nc/nl/donation/sender-identification.jhtml?t=17ea819c5df45f679897de540f3cb9f3f1e77fb3dd97447d68440cb16edd1869&e=true#rmcl" class="doe">DOE AGORA!</a>
+</div>
+</div>
+</body>
+</html>

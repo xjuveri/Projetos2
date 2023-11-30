@@ -1,0 +1,16 @@
+<!-- relatorio/templates/relatorio/criar_relatorio.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Criar Relatório para {{ nome_mes }}</h2>
+  <form method="post" action="">
+    {% csrf_token %}
+    <label for="titulo">Título:</label>
+    <input type="text" name="titulo" required><br>
+    <label for="bloco_notas">Bloco de Notas:</label><br>
+    <textarea name="bloco_notas" required></textarea><br>
+
+    <button type="submit">Salvar</button>
+  </form>
+  <a href="{% url 'relatorios_do_mes' mes=mes %}">Voltar para Relatórios</a>
+{% endblock %}
