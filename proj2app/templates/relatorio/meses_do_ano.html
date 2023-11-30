@@ -1,0 +1,15 @@
+<!-- relatorio/templates/relatorio/meses_do_ano.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Meses do Ano</h2>
+  <ul>
+    {% for mes in meses %}
+      <li>
+        <a href="{% url 'relatorios_do_mes' mes=forloop.counter %}">
+          {{ mes }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+{% endblock %}
