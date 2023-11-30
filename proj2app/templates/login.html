@@ -1,4 +1,3 @@
-
 {% load static %}
 <head>
     <meta charset="UTF-8">
@@ -9,20 +8,22 @@
 </head>
 <body>
 <div class="login">
-<div >
-    
-    <div class="col-md-4 offset-md-4">
-        <img src="{% static 'images/logo.jpg' %}" alt="Minha Logo" width=300 height= 300 class="logo">
+    <div>
+        <div class="col-md-4 offset-md-4">
+            <img src="{% static 'images/logo.jpg' %}" alt="Minha Logo" width=300 height= 300 class="logo">
             <div class="body">
                 <form method="post">
-                        {% csrf_token %} 
-                        {{ form.as_p }}
-                        <p class="change-form-p">ESQUECI MINHA SENHA</p>
-                    </form>
+                    {% csrf_token %} 
+                    {{ form.as_p }}
+                    <p class="change-form-p">ESQUECI MINHA SENHA</p>
                     <input type="submit" value="ENTRAR" class="buttonSub">
-                
+                </form>
+                <div class="user-type-selection">
+                    <a href="{% url 'login_gestor' %}" class="user-type-button">Deseja entrar como Gestor?</a>
+                    <a href="{% url 'login_educador' %}" class="user-type-button">Deseja entrar como Educador?</a>
+                </div>
             </div>
+        </div>
     </div>
-</div>
 </div>
 </body>
