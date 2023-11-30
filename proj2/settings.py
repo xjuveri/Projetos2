@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'proj2app',
     'inventario_patrimonial',
+    'relatorio',
 ]
 
 MIDDLEWARE = [

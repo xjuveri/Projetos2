@@ -5,6 +5,8 @@ from django.contrib.auth import authenticate, login
 from django.db import models
 from .forms import MeuLogin, MeuCadastro
 from .models import ProgressoAluno
+from django.contrib.auth.forms import UserCreationForm
+from .models import PerfilGestor, PerfilEducador
 
 # Create your views here.
 
@@ -15,7 +17,23 @@ def login(request):
     if request.method == 'POST':
         form = MeuLogin(request.POST)
         if form.is_valid():
-            return redirect('home.html')
+            user_type = form.cleaned_data['user_type']
+            username = form.cleaned_data['username']
+            password = form.cleaned_data['password']
+            
+            # Faça a autenticação com base no tipo de usuário
+            user = authenticate(request, username=username, password=password)
+
+            if user is not None:
+                login(request, user)
+                # Redirecione para a página apropriada com base no tipo de usuário
+                if user_type == 'gestor':
+                    return HttpResponseRedirect('/perfil_gestor/')
+                elif user_type == 'educador':
+                    return HttpResponseRedirect('/perfil_educador/')
+            else:
+                # Tratamento para autenticação falhada
+                pass
     else:
         form = MeuLogin()
 
@@ -55,7 +73,7 @@ def login_educador(request):
 
             if user is not None:
                 login(request, user)
-                return HttpResponseRedirect('/dashboard-gestor/')
+                return HttpResponseRedirect('/perfil_educador/')
             else:
                 # Tratamento para autenticação falhada
                 pass
@@ -63,9 +81,14 @@ def login_educador(request):
         form = MeuLogin()
 
     return render(request, 'login_educador.html', {'form': form})
-    
-    
-  
+
+def perfil_gestor(request):
+    return render(request, 'perfil_gestor.html')
+
+def perfil_educador(request):
+    return render(request, 'perfil_educador.html')
+
+#----------------------------------------------
 def cadastro(request):
     if request.method == 'POST':
         form = MeuCadastro(request.POST)
