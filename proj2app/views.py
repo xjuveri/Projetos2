@@ -20,6 +20,51 @@ def login(request):
         form = MeuLogin()
 
     return render(request, 'login.html', {'form': form})
+
+def login_gestor(request):
+    if request.method == 'POST':
+        form = MeuLogin(request.POST)
+        if form.is_valid():
+            username = form.cleaned_data['username']
+            password = form.cleaned_data['password']
+
+            # Lógica de autenticação específica para gestor
+            user = authenticate(request, username=username, password=password)
+
+            if user is not None:
+                login(request, user)
+                return HttpResponseRedirect('/dashboard-gestor/')
+            else:
+                # Tratamento para autenticação falhada
+                pass
+    else:
+        form = MeuLogin()
+
+    return render(request, 'login_gestor.html', {'form': form})
+    
+
+def login_educador(request):
+    if request.method == 'POST':
+        form = MeuLogin(request.POST)
+        if form.is_valid():
+            username = form.cleaned_data['username']
+            password = form.cleaned_data['password']
+
+            # Lógica de autenticação específica para gestor
+            user = authenticate(request, username=username, password=password)
+
+            if user is not None:
+                login(request, user)
+                return HttpResponseRedirect('/dashboard-gestor/')
+            else:
+                # Tratamento para autenticação falhada
+                pass
+    else:
+        form = MeuLogin()
+
+    return render(request, 'login_educador.html', {'form': form})
+    
+    
   
 def cadastro(request):
     if request.method == 'POST':

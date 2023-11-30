@@ -29,5 +29,9 @@ urlpatterns = [
     path('prestacao/',views.prestacao, name= 'prestacao'),
     path('grafico/', views.grafico, name = 'grafico'),
     path('inventario/', include('inventario_patrimonial.urls')),
+
+    #tipos de login
+    path('login_gestor', views.login_gestor, name='login_gestor'),
+    path('login_educador/', views.login_educador, name='login_educador'),
 ]
 
