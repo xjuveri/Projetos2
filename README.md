@@ -83,7 +83,8 @@ os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/
 <hr>
 
 ### Deployment das histórias:
-[**Link da Azure**](https://alecrim-dourado.azurewebsites.net/#) // [**Protótipo de média Figma**](https://www.figma.com/file/pJ3LCPDVHkmArc31JDybi0/PROT%C3%93TIPO-M%C3%89DIA-FIDELIDADE-PRO-GOTAS?type=design&node-id=0-1&mode=design)<hr>
+->[**Link da Azure**](https://alecrim-dourado.azurewebsites.net/#)<br>
+->[**Protótipo de média Figma**](https://www.figma.com/file/pJ3LCPDVHkmArc31JDybi0/PROT%C3%93TIPO-M%C3%89DIA-FIDELIDADE-PRO-GOTAS?type=design&node-id=0-1&mode=design)<hr>
 
 ### Screencast dos protótipos lo-fi:
 <hr>
