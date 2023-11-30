@@ -8,6 +8,7 @@
     {% for pagina in paginas %}
       <li>
         <a href="{% url 'visualizar_pagina' pagina_id=pagina.id %}">{{ pagina.titulo }}</a>
+        <a href="{% url 'editar_pagina' pagina_id=pagina.id %}">Editar</a>
         <form method="post" style="display: inline;">
           {% csrf_token %}
           <input type="hidden" name="action" value="excluir_pagina">

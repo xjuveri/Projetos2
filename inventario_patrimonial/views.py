@@ -82,3 +82,16 @@ def novo_ano(request):
 
     return render(request, 'inventario_patrimonial/novo_ano.html')
 
+def editar_pagina(request, pagina_id):
+    pagina = get_object_or_404(Pagina, pk=pagina_id)
+
+    if request.method == 'POST':
+        titulo = request.POST.get('titulo')
+        bloco_de_notas = request.POST.get('bloco_de_notas')
+        pagina.titulo = titulo
+        pagina.bloco_de_notas = bloco_de_notas
+        pagina.save()
+        return redirect('lista_paginas', ano=pagina.mes.ano.ano, mes=pagina.mes.nome)
+
+    return render(request, 'inventario_patrimonial/editar_pagina.html', {'pagina': pagina})
+
