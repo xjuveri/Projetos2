@@ -104,6 +104,7 @@ os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/
 <hr>
 
 ### Relato do Pair Programming:
+->[**Link pro Docs**](https://docs.google.com/document/d/19T3NnsldoAegtstO3mf6q6qPy6M1cGF2AQHre-L3H1c/edit)
 <hr>
 
 
