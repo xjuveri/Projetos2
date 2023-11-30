@@ -17,7 +17,6 @@ def login(request):
     if request.method == 'POST':
         form = MeuLogin(request.POST)
         if form.is_valid():
-            user_type = form.cleaned_data['user_type']
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
             
@@ -51,7 +50,7 @@ def login_gestor(request):
 
             if user is not None:
                 login(request, user)
-                return HttpResponseRedirect('/dashboard-gestor/')
+                return HttpResponseRedirect('/perfil_gestor/')
             else:
                 # Tratamento para autenticação falhada
                 pass
@@ -73,7 +72,7 @@ def login_educador(request):
 
             if user is not None:
                 login(request, user)
-                return HttpResponseRedirect('/perfil_educador/')
+                return HttpResponseRedirect('perfil_educador/')
             else:
                 # Tratamento para autenticação falhada
                 pass
