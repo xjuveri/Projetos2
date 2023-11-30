@@ -1,0 +1,16 @@
+<!-- editar_pagina.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Editar Página</h2>
+  <form method="post" action="{% url 'editar_pagina' pagina_id=pagina.id %}">
+    {% csrf_token %}
+    <label for="titulo">Título:</label>
+    <input type="text" name="titulo" value="{{ pagina.titulo }}"><br>
+    <label for="bloco_de_notas">Bloco de Notas:</label>
+    <textarea name="bloco_de_notas">{{ pagina.bloco_de_notas }}</textarea><br>
+    <button type="submit">Salvar</button>
+  </form>
+  <a href="{% url 'lista_paginas' ano=pagina.mes.ano.ano mes=pagina.mes.nome %}">Cancelar</a>
+{% endblock %}
