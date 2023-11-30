@@ -16,7 +16,7 @@
                     {% csrf_token %} 
                     {{ form.as_p }}
                     <p class="change-form-p">ESQUECI MINHA SENHA</p>
-                    <input type="submit" value="ENTRAR" class="buttonSub">
+                    <input type="submit" value="ENTRAR" class="buttonSub" formaction="{% url 'home' %}">
                 </form>
                 <div class="user-type-selection">
                     <a href="{% url 'login_gestor' %}" class="user-type-button">Deseja entrar como Gestor?</a>
