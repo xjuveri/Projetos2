@@ -97,6 +97,7 @@ https://drive.google.com/file/d/1B__CBZwG-XnmUzlgwUpb7uE_e1MobSsh/view
 <hr>
 
 ### Screencast dos testes:
+https://drive.google.com/drive/folders/1t82E0vT8pBAVLR3-P2J_Ly_hG3nCDNE4?usp=sharing
 <hr>
 
 ### Diagramama de atividades:
