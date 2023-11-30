@@ -1,0 +1,16 @@
+<!-- relatorio/templates/relatorio/editar_relatorio.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Editar Relatório</h2>
+  <form method="post" action="">
+    {% csrf_token %}
+    <label for="titulo">Título:</label>
+    <input type="text" name="titulo" value="{{ relatorio.titulo }}" required><br>
+    <label for="bloco_notas">Bloco de Notas:</label><br>
+    <textarea name="bloco_notas" required>{{ relatorio.bloco_notas }}</textarea><br>
+
+    <button type="submit">Salvar Edições</button>
+  </form>
+  <a href="{% url 'relatorios_do_mes' mes=relatorio.data.month %}">Voltar para Relatórios</a>
+{% endblock %}
