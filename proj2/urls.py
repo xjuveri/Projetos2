@@ -31,6 +31,7 @@ urlpatterns = [
     path('inventario/', include('inventario_patrimonial.urls')),
     path('turmas/', views.turmas, name = 'turmas'),
     path('comoAjudar/', views.comoAjudar, name = 'comoAjudar'),
+    path('quemSomos/', views.somos, name = 'quemSomos'),
     path('relatorio/', include('relatorio.urls')),
     #tipos de login
     path('login_gestor', views.login_gestor, name='login_gestor'),

@@ -1,27 +1,23 @@
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-gap: 5px;
-    padding-top: 170px;
-    padding-bottom: 10px;
-    height: 100%; 
-    padding-left: 170px;
+
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A0C38;
 }
 
 .topic {
-    width: 70%;
-    height: 100px;
-    background-color: #f5b47f;
-    color: #613e0b;
-    line-height: 100px;
-    border: 2px solid #333;
+    margin: 10px;
+  }
+  
+  .topic h2 {
     text-align: center;
-    margin-top: 20px;
-    border-radius: 20px;
-}
+  }
+  
+  .containerDoc {
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+    background-color:#0A0C38 ;
+    border-radius: 25px;
+  }
 
-.topic h2 {
-    font-size: 20px;
-    margin: 0;
-}

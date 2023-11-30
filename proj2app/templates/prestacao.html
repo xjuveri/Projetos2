@@ -1,27 +1,44 @@
-{% extends 'base.html' %}
 {% load static %}
-
-{% block content %}
-
+<head>
+    <meta charset="UTF-8">
+    <title>Gotas de Flor - DOCUMENTOS</title>
+    <link rel="stylesheet" href="{% static 'prestacao.css' %}">
+</head>
+<body>
 {% include 'partials/_barra.html' %}
+<h1>DOCUMENTOS</h1>
 <div class="container">
-    <div class="topic">
-        <h2>ESTATUTO</h2>
-    </div>
-    <div class="topic">
-        <h2>DOCUMENTOS CONTÁBEIS</h2>
-    </div>
-    <div class="topic">
-        <h2>CERTIDÕES</h2>
-    </div>
-    <div class="topic">
-        <h2>INVENTÁRIO PATRIMONIAL</h2>
-    </div>
-    <div class="topic">
-        <h2>RELATÓRIO DE ATIVIDADES</h2>
-    </div>
-    <div class="topic">
-        <h2>PARECER DO CONSELHO FISCAL</h2>
+    <div class="row">
+        <div class="containerDoc">
+            <div class="topic">
+                <h2 class="text-center">ESTATUTO</h2>
+            </div>
+        </div>
+        <div class="containerDoc">
+            <div class="topic">
+                <h2 class="text-center">DOCUMENTOS CONTÁBEIS</h2>
+            </div>
+        </div>
+        <div class="containerDoc">
+            <div class="topic">
+                <h2 class="text-center">CERTIDÕES</h2>
+            </div>
+        </div>
+        <div class="containerDoc">
+            <div class="topic">
+                <h2 class="text-center">INVENTÁRIO PATRIMONIAL</h2>
+            </div>
+        </div>
+        <div class="containerDoc">
+            <div class="topic">
+                <h2 class="text-center">RELATÓRIO DE ATIVIDADES</h2>
+            </div>
+        </div>
+        <div class="containerDoc">
+            <div class="topic">
+                <h2 class="text-center">PARECER DO CONSELHO FISCAL</h2>
+            </div>
+        </div>
     </div>
 </div>
-{% endblock %}
+</body>

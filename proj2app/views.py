@@ -116,3 +116,6 @@ def turmas(request):
     return render(request,'turmas.html')
 def comoAjudar(request):
     return render(request,'comoAjudar.html')
+def somos(request):
+    return render(request,'somos.html')
+
