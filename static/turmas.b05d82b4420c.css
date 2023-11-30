@@ -1,0 +1,43 @@
+body {
+    background-color: #96DBE2;
+}
+
+h1 {
+    font-size: 60px;
+    color: #0A0C38;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.containerTexto {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os itens */
+    margin-top: 70px; 
+    margin-left: 200px; 
+}
+
+.logo {
+    margin-right: 20px; /* Adiciona espaço entre a imagem e o texto */
+}
+
+.containerTurmas {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    font-size: 50px;
+    background-color: #0A0C38;
+    color: #43E3F3;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 600px;
+    height: 100px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}

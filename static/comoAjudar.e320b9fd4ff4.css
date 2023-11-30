@@ -1,0 +1,71 @@
+body {
+    background-color: #96DBE2;
+}
+.containerAjuda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    
+}
+.textosAjuda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    
+}
+.botao {
+    text-align: center;
+    background-color: #0A0C38;
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 30px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doe {
+    color: #96DBE2;
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: 600;
+    line-height: 70px; 
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A0C38;
+    
+}
+h2{
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A0C38;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A0C38;
+}
+.fotos{
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 90px;
+}
+p {
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A0C38;
+    font-weight: 500;
+    width: 80%; /* Largura ajustada para 80% da largura da tela */
+}

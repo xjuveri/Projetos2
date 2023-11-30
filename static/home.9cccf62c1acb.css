@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #96DBE2;
+}
+h1{
+    font-size: 60px;
+    color: #0A0C38;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 70px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+     margin-top: 150px;
+    flex-direction: column;
+}
+
+.carroselContainer {
+ 
+    width: 80%;
+    height: 100vh; /* Defina uma altura máxima em vez de 100vh */
+    margin: 20px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.carrosel {
+    width: 100%;
+    height: auto;
+    display: block;
+}

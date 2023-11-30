@@ -1,0 +1,64 @@
+/* Reset de estilos para garantir uma base limpa */
+body, h1, h2, h3, h4, p, ul, li, form, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #adce8f;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+}
+
+.titulo {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #b1761e;
+    font-size: 30px;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    margin-bottom: 15px; 
+    border-radius: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #f5b47f;
+    color: #613e0b;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.change-form-p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.change-form-p a {
+    color: #7a3e05;
+    text-decoration: none;
+}
+
+.change-form-p a:hover {
+    text-decoration: underline;
+}
