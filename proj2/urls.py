@@ -33,5 +33,8 @@ urlpatterns = [
     #tipos de login
     path('login_gestor', views.login_gestor, name='login_gestor'),
     path('login_educador/', views.login_educador, name='login_educador'),
+    path('perfil_gestor/', views.perfil_gestor, name='perfil_gestor'),
+    path('perfil_educador/', views.perfil_educador, name='perfil_educador'),
+
 ]
 
