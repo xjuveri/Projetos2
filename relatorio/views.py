@@ -4,6 +4,7 @@ from .models import Relatorio
 from datetime import datetime
 from calendar import month_name
 from django.http import HttpResponseBadRequest
+from .models import Relatorio
 
 def meses_do_ano(request):
     meses = [
@@ -55,3 +56,14 @@ def relatorio_detalhes(request, relatorio_id):
             return redirect('relatorios_do_mes', mes=relatorio.data.month)
 
     return render(request, 'relatorio/relatorio_detalhes.html', {'relatorio': relatorio})
+
+def editar_relatorio(request, relatorio_id):
+    relatorio = get_object_or_404(Relatorio, id=relatorio_id)
+
+    if request.method == 'POST':
+        relatorio.titulo = request.POST.get('titulo')
+        relatorio.bloco_notas = request.POST.get('bloco_notas')
+        relatorio.save()
+        return redirect('relatorios_do_mes', mes=relatorio.data.month)
+
+    return render(request, 'relatorio/editar_relatorio.html', {'relatorio': relatorio})

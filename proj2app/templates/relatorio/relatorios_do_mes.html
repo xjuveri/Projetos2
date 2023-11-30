@@ -9,6 +9,7 @@
         <a href="{% url 'relatorio_detalhes' relatorio_id=relatorio.id %}">
           {{ relatorio.titulo }} - {{ relatorio.data }}
         </a>
+        <a href="{% url 'editar_relatorio' relatorio_id=relatorio.id %}">Editar</a>
       </li>
     {% endfor %}
   </ul>
