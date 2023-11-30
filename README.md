@@ -83,7 +83,7 @@ os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/
 ![Captura de tela 2023-11-30 034711](https://github.com/xjuveri/Projetos2/assets/126585562/aeb18b8a-e153-465c-a373-a2f024a8003d)
 <hr>
 
-### Deployment das histórias / CI/CD automatizado:
+### Deployment das histórias (CI/CD automatizado):
 ->[**Link da Azure**](https://alecrim-dourado.azurewebsites.net/#)<br>
 ->[**Protótipo de média Figma**](https://www.figma.com/file/pJ3LCPDVHkmArc31JDybi0/PROT%C3%93TIPO-M%C3%89DIA-FIDELIDADE-PRO-GOTAS?type=design&node-id=0-1&mode=design)<hr>
 
