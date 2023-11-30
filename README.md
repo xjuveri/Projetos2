@@ -80,6 +80,7 @@ os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/
 <hr>
 
 ### Bug/issue tracker:
+![image](https://github.com/xjuveri/Projetos2/assets/126585562/0c33497b-3bc4-4675-ab63-633ab39094e1)
 <hr>
 
 ### Deployment das histórias:
