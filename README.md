@@ -89,14 +89,13 @@ os issues e bugs de maneira mais rápida, resultando em um código preciso. <br/
 ->[**Protótipo de média Figma**](https://www.figma.com/file/pJ3LCPDVHkmArc31JDybi0/PROT%C3%93TIPO-M%C3%89DIA-FIDELIDADE-PRO-GOTAS?type=design&node-id=0-1&mode=design)<hr>
 
 ### Screencast dos protótipos lo-fi:
+->[**Link**](https://drive.google.com/file/d/1B__CBZwG-XnmUzlgwUpb7uE_e1MobSsh/view)
 <hr>
 
 ### Screencast do sistema:
 ->[**Link pro Drive**](https://drive.google.com/drive/u/2/folders/116l0-8ssIkTG3AkbH4aThU0iql-np-TA)
 <hr>
 
-### Screencast dos testes:
-<hr>
 
 ### Diagramama de atividades:
 ->[**Link pro Docs**](https://docs.google.com/document/d/1rnzSw0N2aGMBqsRjIIsWfuWKIgWivA6YXCzRadwv5uc/edit)

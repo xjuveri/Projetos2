@@ -1,23 +1,45 @@
-<!-- login.html -->
-
 {% load static %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{% static 'login.css' %}"> 
+
     <title>Login Gotas</title>
 </head>
 <body>
+    
     <div class="login">
         <div class="col-md-4 offset-md-4">
             <img src="{% static 'images/logo.jpg' %}" alt="Minha Logo" width=300 height=300 class="logo">
             <div class="body">
                 <form method="post" action="{% url 'login' %}">
-                    {% csrf_token %} 
-                    {{ form.as_p }}
-                    <p class="change-form-p">ESQUECI MINHA SENHA</p>
+                    <form method="post">
+                        {% csrf_token %} 
+                        {{ form.non_field_errors }}
+                        <p class="change-form-p">ESQUECI MINHA SENHA</p>
+
+
+
+
+<div class="login_gestor">
+                <label for="{{form.Email.id_for_label}}"><b>Usuário</b></label>
+                <div class="input-login">
+                    <input type="text"  name="username" placeholder="Usuário">
+                  </div>
+              </div>
+
+<div class="login_gestor">
+                <label for="{{form.Senha.id_for_label}}" ><b>Senha</b></label>
+                <div class="input-login">
+                    <input type="password" class="form-control mb-3" name="password" placeholder="********">
+                </div>
+              </div>
+        
+
+<input type="submit" value="ENTRAR" class="buttonSub" formaction="{% url 'perfil_educador' %}">
+</form>
+           
                 </form>
-                <button type="submit" class="buttonSub">ENTRAR</button>
             </div>
         </div>
     </div>
